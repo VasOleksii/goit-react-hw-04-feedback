@@ -1,0 +1,9 @@
+.notification {
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgba(253, 143, 0, 0.8);
+  color: #000000;
+}
