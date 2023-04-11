@@ -9,7 +9,8 @@ const App = () => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
-  const option = ['good', 'neutral', 'bad'];
+  const option = Object.keys({ good, neutral, bad });
+  // const option = ['good', 'neutral', 'bad'];
 
   const onLeaveFeedback = option => {
     switch (option) {
